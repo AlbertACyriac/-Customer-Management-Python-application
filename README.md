@@ -20,6 +20,34 @@ The application allows users to:
 - **Error Handling**: Prevents crashes due to bad input and guides users to correct mistakes.
 - **Testing**: Manual test plan and automated tests written using Pytest (see `/tests` folder if applicable).
 
+- ## Testing
+
+This application has been tested using both **manual and automated testing approaches** to ensure reliability and correctness.
+
+### Manual Testing
+
+Manual tests are documented in the provided Excel file:
+- `Manual_Test_Plan_CustomerApp.xlsx`
+
+Each test includes:
+- Test inputs
+- Actions taken
+- Expected vs actual results
+- Screenshots as evidence
+
+### ⚙Automated Unit Testing (Pytest)
+
+Unit tests for core functionality (e.g., input validation, customer management logic) have been written using **Pytest**.
+
+#### How to Run the Automated Tests
+
+1. Install Pytest if not already installed:
+2. Navigate to the root project folder in your terminal:
+3. Run the tests with:
+4. Pytest will discover and execute all test functions in `test_customer_manager.py` and return a pass/fail report.
+
+
+
 ## Sample Data Format
 
 Each customer record contains:
@@ -39,4 +67,12 @@ Each customer record contains:
 3. **Run the Application:**
    ```bash
    python main.py
+
+   
+---
+
+### Author
+
+Albert Cyriac
+
 
